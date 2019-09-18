@@ -1,0 +1,19 @@
+#highlight td.range-low {
+    color: #C0D9D9;
+}
+#highlight td.range-elevated {
+    background-color: #ffc57a !important;
+    font-weight: bold;
+}
+#highlight td.range-severe {
+    background-color: #d59392 !important;
+    font-weight: bold;
+}
+
+@media print {
+    td.range-severe {
+        box-shadow: inset 0 0 0 1000px darkred !important;
+        color: #eee !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+}

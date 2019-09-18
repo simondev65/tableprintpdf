@@ -1,0 +1,13 @@
+[app/ui]
+version = 7.3.0
+modtime = 1568834995.055723000
+
+[app/launcher]
+version = 7.3.0
+modtime = 1568834995.060431000
+
+[views/toto]
+export = none
+owner = admin
+version = 7.3.0
+modtime = 1568836525.325482000
